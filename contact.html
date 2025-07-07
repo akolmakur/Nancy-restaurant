@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Nancy's Restaurant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background-color: #228B22;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contact-section {
+      padding: 40px 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+    .contact-section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .contact-info {
+      margin-bottom: 30px;
+    }
+    .contact-info p {
+      margin: 10px 0;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input, textarea {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px;
+      font-size: 16px;
+      background-color: #228B22;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1a6b1a;
+    }
+    .map {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .map iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Nancy's Restaurant</h1>
+    <p>Get in Touch with Us</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <h2>Contact Us</h2>
+
+    <div class="contact-info">
+      <p><strong>Address:</strong> Kilimani, Nairobi, Kenya</p>
+      <p><strong>Phone:</strong> +254 712 345 678</p>
+      <p><strong>Email:</strong> info@nancysrestaurant.com</p>
+    </div>
+
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <!-- Google Maps Placeholder -->
+    <div class="map">
+      <h3>Find Us on Google Maps</h3>
+      <!-- You can replace the link below with your actual location embed -->
+      <iframe src="https://maps.google.com/maps?q=kilimani%20nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Nancy's Restaurant. Visit us in Kilimani, Nairobi, Kenya.</p>
+  </footer>
+
+</body>
+</html>
